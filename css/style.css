@@ -1,0 +1,56 @@
+.q1{
+    background-color: #818181;
+    width: 60px;
+    height: 60px;
+}
+
+.q2{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+}
+
+.cavalo{
+    width: 40px;
+    height: 95x;
+    position: absolute; 
+    left: 580px;   
+    top: 65px;
+}
+
+#anima-div
+{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 0%;
+    animation: mov-div 10s infinite ;
+}
+@keyframes mov-div 
+{
+    0%{top: 0px;left: 0px;}
+    4%{top: 75px;left: 0px;}
+    8%{top: 150px;left: 0px;}
+    12%{top: 150px;left: 70px;}
+    16%{top: 225px;left: 70px;}
+    20%{top: 300px;left: 70px;}
+    24%{top: 300px;left: 140px;}
+    28%{top: 375px;left: 140px;}
+    32%{top: 450px;left: 140px;}
+    36%{top: 450px;left: 215px;}
+    40%{top: 525px;left: 215px;}
+    44%{top: 525px;left: 290px;}
+    48%{top: 525px;left: 365px;}
+    52%{top: 525px;left: 290px;}
+    56%{top: 525px;left: 215px;}
+    60%{top: 450px;left: 215px;}
+    64%{top: 450px;left: 140px;}
+    68%{top: 375px;left: 140px}
+    72%{top: 300px;left: 140px}
+    76%{top: 300px;left: 70px}
+    80%{top: 225px;left: 70px}
+    84%{top: 150px;left: 70px}
+    88%{top: 150px;left: 0px}
+    92%{top: 75px;left: 0px}
+    96%{top: 0px;left: 0px}
+}
